@@ -28,6 +28,6 @@ public class TruncatedSphereTest {
         TruncatedSphere truncatedSphereTest3 = new TruncatedSphere(coordinatesTest3);
         truncatedSphereTest3.isCoordinatesCorrect();
         double resultTest3 = truncatedSphereTest3.getArea();
-        Assertions.assertEquals(resultTest3, resultTest3);
+        Assertions.assertEquals(resultTest3, 23);
     }
 }
